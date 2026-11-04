@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherzodbek Nabijonov — Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans px-6 py-12 max-w-4xl mx-auto">
+    <!-- Hero Section -->
+    <header class="mb-16 border-b border-slate-800 pb-10">
+        <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-white mb-4">
+            Sherzodbek Nabijonov
+        </h1>
+        <p class="text-xl text-cyan-400 font-medium mb-4">
+            Full-Stack Developer & Cybersecurity Enthusiast
+        </p>
+        <p class="text-slate-400 max-w-2xl leading-relaxed">
+            Building focused learning ecosystems and resilient software architecture. Experienced in designing full-stack web applications with robust backend security and real-time interaction.
+        </p>
+
+        <!-- Tech Stack Badges -->
+        <div class="flex flex-wrap gap-2 mt-6">
+            <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-300 rounded-md">FastAPI</span>
+            <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-300 rounded-md">Python</span>
+            <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-300 rounded-md">Next.js</span>
+            <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-300 rounded-md">TypeScript</span>
+            <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-300 rounded-md">React</span>
+            <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-300 rounded-md">PostgreSQL</span>
+            <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-300 rounded-md">WebSockets</span>
+            <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-300 rounded-md">Tailwind CSS</span>
+        </div>
+    </header>
+
+    <!-- Featured Project Section -->
+    <section class="mb-16">
+        <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+            <span class="text-cyan-400">01.</span> Featured Project
+        </h2>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 sm:p-8 hover:border-slate-700 transition">
+            <div class="flex justify-between items-start mb-4 flex-wrap gap-2">
+                <div>
+                    <h3 class="text-2xl font-bold text-white">EduStimul 3.0</h3>
+                    <p class="text-sm text-slate-400">Focused Study Environment & Exam Prep Platform</p>
+                </div>
+                <div class="flex gap-3 text-sm font-mono">
+                    <a href="#" class="text-cyan-400 hover:underline">GitHub</a>
+                    <a href="#" class="text-cyan-400 hover:underline">Live Demo</a>
+                </div>
+            </div>
+
+            <p class="text-slate-300 leading-relaxed mb-6">
+                A comprehensive web ecosystem designed to eliminate digital distractions and boost retention for students preparing for high-stakes exams (IELTS/SAT).
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                <div class="bg-slate-950 p-4 rounded-lg border border-slate-800/80">
+                    <h4 class="font-semibold text-cyan-300 mb-1 text-sm">Focus Tools</h4>
+                    <p class="text-xs text-slate-400">Customizable study timers, distraction blockers, and integrated note-taking modules.</p>
+                </div>
+                <div class="bg-slate-950 p-4 rounded-lg border border-slate-800/80">
+                    <h4 class="font-semibold text-cyan-300 mb-1 text-sm">Smart Review</h4>
+                    <p class="text-xs text-slate-400">Spaced repetition flashcards and dynamic 10-question evaluation quizzes managed via admin interface.</p>
+                </div>
+                <div class="bg-slate-950 p-4 rounded-lg border border-slate-800/80">
+                    <h4 class="font-semibold text-cyan-300 mb-1 text-sm">Security & Auth</h4>
+                    <p class="text-xs text-slate-400">Hardened backend auth logic, penetration-tested admin panel routes, and secure WebSocket protocols.</p>
+                </div>
+            </div>
+
+            <div class="text-xs font-mono text-slate-500 border-t border-slate-800 pt-4">
+                Architecture: FastAPI (Python REST & WS) + Next.js (TypeScript) + PostgreSQL
+            </div>
+        </div>
+    </section>
+
+    <!-- Engineering Focus & Security Journey -->
+    <section class="mb-16">
+        <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+            <span class="text-cyan-400">02.</span> Engineering Philosophy & Security
+        </h2>
+        <div class="space-y-4 text-slate-300 leading-relaxed bg-slate-900/50 border border-slate-800 p-6 rounded-xl">
+            <p>
+                My approach to software engineering centers around <strong>resilience and user protection</strong>. Building a functional application is only the first step; securing student data and preserving focus environments against vulnerabilities is the core challenge.
+            </p>
+            <p>
+                Through iterative penetration testing on my own projects, I continually refactor codebases to resolve authentication flaws, optimize database queries, and improve client-server state synchronization.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 pt-8 flex justify-between items-center flex-wrap gap-4 text-sm text-slate-400">
+        <div>
+            © 2026 Sherzodbek Nabijonov. Built with Next.js & Tailwind CSS.
+        </div>
+        <div class="flex gap-4">
+            <a href="#" class="hover:text-cyan-400">Email</a>
+            <a href="#" class="hover:text-cyan-400">GitHub</a>
+            <a href="#" class="hover:text-cyan-400">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
